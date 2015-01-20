@@ -1,2 +1,1 @@
-# learnCloud 
-learnCloud study
+Cloud code project for meiya. Cloud Code Guide: https://cn.avoscloud.com/docs/cloud_code_guide.html
