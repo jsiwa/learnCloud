@@ -1,0 +1,50 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'git+https://github.com/leancloud/CloudCodeMockSDK' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'git+https://github.com/leancloud/CloudCodeMockSDK', null ]
+5 verbose cache add name=undefined spec="git+https://github.com/leancloud/CloudCodeMockSDK" args=["git+https://github.com/leancloud/CloudCodeMockSDK",null]
+6 verbose parsed url { protocol: 'git+https:',
+6 verbose parsed url   slashes: true,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: 'github.com',
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: 'github.com',
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '/leancloud/CloudCodeMockSDK',
+6 verbose parsed url   path: '/leancloud/CloudCodeMockSDK',
+6 verbose parsed url   href: 'git+https://github.com/leancloud/CloudCodeMockSDK' }
+7 silly lockFile dda6cba6-b-com-leancloud-CloudCodeMockSDK https://github.com/leancloud/CloudCodeMockSDK
+8 verbose lock https://github.com/leancloud/CloudCodeMockSDK /Users/qiezi/.npm/dda6cba6-b-com-leancloud-CloudCodeMockSDK.lock
+9 verbose addRemoteGit [ 'https://github.com/leancloud/CloudCodeMockSDK', 'master' ]
+10 error git clone https://github.com/leancloud/CloudCodeMockSDK Cloning into bare repository '/Users/qiezi/.npm/_git-remotes/https-github-com-leancloud-CloudCodeMockSDK-dda6cba6'...
+10 error git clone https://github.com/leancloud/CloudCodeMockSDK remote: Repository not found.
+10 error git clone https://github.com/leancloud/CloudCodeMockSDK fatal: repository 'https://github.com/leancloud/CloudCodeMockSDK/' not found
+11 silly lockFile dda6cba6-b-com-leancloud-CloudCodeMockSDK https://github.com/leancloud/CloudCodeMockSDK
+12 silly lockFile dda6cba6-b-com-leancloud-CloudCodeMockSDK https://github.com/leancloud/CloudCodeMockSDK
+13 error Error: Command failed: Cloning into bare repository '/Users/qiezi/.npm/_git-remotes/https-github-com-leancloud-CloudCodeMockSDK-dda6cba6'...
+13 error remote: Repository not found.
+13 error fatal: repository 'https://github.com/leancloud/CloudCodeMockSDK/' not found
+13 error
+13 error     at ChildProcess.exithandler (child_process.js:648:15)
+13 error     at ChildProcess.emit (events.js:98:17)
+13 error     at maybeClose (child_process.js:756:16)
+13 error     at Socket.<anonymous> (child_process.js:969:11)
+13 error     at Socket.emit (events.js:95:17)
+13 error     at Pipe.close (net.js:465:12)
+14 error If you need help, you may report this *entire* log,
+14 error including the npm and node versions, at:
+14 error     <http://github.com/npm/npm/issues>
+15 error System Darwin 14.0.0
+16 error command "node" "/usr/local/bin/npm" "install" "-g" "git+https://github.com/leancloud/CloudCodeMockSDK"
+17 error cwd /Users/qiezi/Documents/study/github/learnCloud
+18 error node -v v0.10.33
+19 error npm -v 1.4.28
+20 error code 128
+21 verbose exit [ 1, true ]
